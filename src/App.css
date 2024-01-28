@@ -1,0 +1,89 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.task-create{
+    width: 650px;
+    padding: 10px;
+    border: 2px solid black;
+    background-image: image-set('seffafs.jpg');
+    background-color: gray;
+}
+
+.task-update{
+    width: 100%;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-label{
+    margin: 10px 0px;
+}
+
+.task-title-input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.task-input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.task-button{
+    border: 1px solid green;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+}
+
+.update-button{
+    background-color: blueviolet;
+}
+
+.task-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.task-show{
+    border: 1px solid black;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
